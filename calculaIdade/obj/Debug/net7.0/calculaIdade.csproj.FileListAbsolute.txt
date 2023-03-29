@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\back-end\calculaIdade\bin\Debug\net7.0\calculaIdade.exe
+C:\Users\41017653836\Desktop\back-end\calculaIdade\bin\Debug\net7.0\calculaIdade.deps.json
+C:\Users\41017653836\Desktop\back-end\calculaIdade\bin\Debug\net7.0\calculaIdade.runtimeconfig.json
+C:\Users\41017653836\Desktop\back-end\calculaIdade\bin\Debug\net7.0\calculaIdade.dll
+C:\Users\41017653836\Desktop\back-end\calculaIdade\bin\Debug\net7.0\calculaIdade.pdb
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\calculaIdade.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\calculaIdade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\calculaIdade.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\calculaIdade.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\calculaIdade.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\calculaIdade.dll
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\refint\calculaIdade.dll
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\calculaIdade.pdb
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\calculaIdade.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\back-end\calculaIdade\obj\Debug\net7.0\ref\calculaIdade.dll

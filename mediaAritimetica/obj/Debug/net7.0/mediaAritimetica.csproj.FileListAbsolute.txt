@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\bin\Debug\net7.0\mediaAritimetica.exe
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\bin\Debug\net7.0\mediaAritimetica.deps.json
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\bin\Debug\net7.0\mediaAritimetica.runtimeconfig.json
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\bin\Debug\net7.0\mediaAritimetica.dll
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\bin\Debug\net7.0\mediaAritimetica.pdb
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\mediaAritimetica.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\mediaAritimetica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\mediaAritimetica.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\mediaAritimetica.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\mediaAritimetica.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\mediaAritimetica.dll
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\refint\mediaAritimetica.dll
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\mediaAritimetica.pdb
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\mediaAritimetica.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\back-end\mediaAritimetica\obj\Debug\net7.0\ref\mediaAritimetica.dll
