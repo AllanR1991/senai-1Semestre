@@ -1,5 +1,6 @@
-﻿float anoNascimento;
-
+﻿float semanas, qtSemanaAno;
+int anoNascimento,anoAtual,anos;
+const float diasAno=365f, diasSemana=7f;
 
 
 Console.WriteLine(@$"
@@ -11,9 +12,14 @@ Console.WriteLine(@$"
 ----------------------------------
 ");
 
+anoAtual = int.Parse(DateTime.UtcNow.ToString("yyyy"));
+
+
 Console.WriteLine($"Digite o ano em que nasceu ");
-anoNascimento = float.Parse(Console.ReadLine());
+anoNascimento = int.Parse(Console.ReadLine());
 
-anos = anoNascimento - DateTime.
+anos = anoAtual - anoNascimento;
+qtSemanaAno = diasAno/diasSemana;
+semanas = (qtSemanaAno*anos);
 
-Console.WriteLine($"A média aritimetica é: {media}");
+Console.WriteLine($"Você tem {anos} anos, que convertidos em semanas fica {Math.Round(semanas,2)} semanas.");

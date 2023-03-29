@@ -1,0 +1,15 @@
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\bin\Debug\net7.0\calculaIdadeEmAnosESemanas.exe
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\bin\Debug\net7.0\calculaIdadeEmAnosESemanas.deps.json
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\bin\Debug\net7.0\calculaIdadeEmAnosESemanas.runtimeconfig.json
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\bin\Debug\net7.0\calculaIdadeEmAnosESemanas.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\bin\Debug\net7.0\calculaIdadeEmAnosESemanas.pdb
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\calculaIdadeEmAnosESemanas.csproj.AssemblyReference.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\calculaIdadeEmAnosESemanas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\calculaIdadeEmAnosESemanas.AssemblyInfoInputs.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\calculaIdadeEmAnosESemanas.AssemblyInfo.cs
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\calculaIdadeEmAnosESemanas.csproj.CoreCompileInputs.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\calculaIdadeEmAnosESemanas.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\refint\calculaIdadeEmAnosESemanas.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\calculaIdadeEmAnosESemanas.pdb
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\calculaIdadeEmAnosESemanas.genruntimeconfig.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\calculaIdadeEmAnosESemanas\obj\Debug\net7.0\ref\calculaIdadeEmAnosESemanas.dll
