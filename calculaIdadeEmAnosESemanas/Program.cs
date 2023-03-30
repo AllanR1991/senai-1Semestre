@@ -13,7 +13,7 @@ Console.WriteLine(@$"
 ");
 
 anoAtual = int.Parse(DateTime.UtcNow.ToString("yyyy"));
-
+//anoAtual = DateTime.Now.Year;
 
 Console.WriteLine($"Digite o ano em que nasceu ");
 anoNascimento = int.Parse(Console.ReadLine());
