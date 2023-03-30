@@ -15,7 +15,11 @@ ladoB = float.Parse(Console.ReadLine());
 Console.WriteLine("Informe o lado C de um triangulo: ");
 ladoC = float.Parse(Console.ReadLine());
 
-if((ladoA==ladob)&&(ladoB==ladoC)){
-    
+if((ladoA == ladoB) && (ladoB== ladoC)){
+    Console.WriteLine($"O triangulo é um triangulo equilátero pois os tres lados são iguais: ladoA = {ladoA}, ladoB = {ladoB}, ladoC = {ladoC}.");
+}else if((ladoA == ladoB)||(ladoA == ladoC)||(ladoB==ladoC)){
+    Console.WriteLine($"O triangulo é um triangulo isóceles pois pelo menos 2 lados são iguais: ladoA = {ladoA}, ladoB = {ladoB}, ladoC = {ladoC}.");
+}else{
+    Console.WriteLine($"O triangulo é um triangulo Escaleno pois todos os lados diferentes: ladoA = {ladoA}, ladoB = {ladoB}, ladoC = {ladoC}.");
 }
 

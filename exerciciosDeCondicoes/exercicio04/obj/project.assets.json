@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\allan\\OneDrive\\Área de Trabalho\\backEnd1\\exerciciosDeCondicoes\\exercicio03\\exercicio03.csproj",
-      "projectName": "exercicio03",
-      "projectPath": "C:\\Users\\allan\\OneDrive\\Área de Trabalho\\backEnd1\\exerciciosDeCondicoes\\exercicio03\\exercicio03.csproj",
+      "projectUniqueName": "C:\\Users\\allan\\OneDrive\\Área de Trabalho\\backEnd1\\exerciciosDeCondicoes\\exericio04\\exericio04.csproj",
+      "projectName": "exericio04",
+      "projectPath": "C:\\Users\\allan\\OneDrive\\Área de Trabalho\\backEnd1\\exerciciosDeCondicoes\\exericio04\\exericio04.csproj",
       "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\allan\\OneDrive\\Área de Trabalho\\backEnd1\\exerciciosDeCondicoes\\exercicio03\\obj\\",
+      "outputPath": "C:\\Users\\allan\\OneDrive\\Área de Trabalho\\backEnd1\\exerciciosDeCondicoes\\exericio04\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config"

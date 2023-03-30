@@ -1,0 +1,15 @@
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\exericio04.csproj.AssemblyReference.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\exericio04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\exericio04.AssemblyInfoInputs.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\exericio04.AssemblyInfo.cs
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\exericio04.csproj.CoreCompileInputs.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\bin\Debug\net7.0\exericio04.exe
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\bin\Debug\net7.0\exericio04.deps.json
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\bin\Debug\net7.0\exericio04.runtimeconfig.json
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\bin\Debug\net7.0\exericio04.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\bin\Debug\net7.0\exericio04.pdb
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\exericio04.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\refint\exericio04.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\exericio04.pdb
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\exericio04.genruntimeconfig.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exericio04\obj\Debug\net7.0\ref\exericio04.dll
