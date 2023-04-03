@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = exercicio05
-build_property.ProjectDir = c:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-02\exercicio05\
+build_property.RootNamespace = estruturaCondicional_Switch
+build_property.ProjectDir = c:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\

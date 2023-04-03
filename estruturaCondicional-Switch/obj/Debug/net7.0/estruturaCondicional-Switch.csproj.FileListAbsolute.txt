@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\bin\Debug\net7.0\estruturaCondicional-Switch.exe
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\bin\Debug\net7.0\estruturaCondicional-Switch.deps.json
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\bin\Debug\net7.0\estruturaCondicional-Switch.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\bin\Debug\net7.0\estruturaCondicional-Switch.dll
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\bin\Debug\net7.0\estruturaCondicional-Switch.pdb
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\estruturaCondicional-Switch.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\estruturaCondicional-Switch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\estruturaCondicional-Switch.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\estruturaCondicional-Switch.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\estruturaCondicional-Switch.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\estruturaCondicional-Switch.dll
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\refint\estruturaCondicional-Switch.dll
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\estruturaCondicional-Switch.pdb
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\estruturaCondicional-Switch.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\estruturaCondicional-Switch\obj\Debug\net7.0\ref\estruturaCondicional-Switch.dll
