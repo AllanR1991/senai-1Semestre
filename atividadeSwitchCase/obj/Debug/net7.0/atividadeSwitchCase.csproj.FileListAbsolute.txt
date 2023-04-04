@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\bin\Debug\net7.0\atividadeSwitchCase.exe
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\bin\Debug\net7.0\atividadeSwitchCase.deps.json
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\bin\Debug\net7.0\atividadeSwitchCase.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\bin\Debug\net7.0\atividadeSwitchCase.dll
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\bin\Debug\net7.0\atividadeSwitchCase.pdb
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\atividadeSwitchCase.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\atividadeSwitchCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\atividadeSwitchCase.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\atividadeSwitchCase.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\atividadeSwitchCase.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\atividadeSwitchCase.dll
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\refint\atividadeSwitchCase.dll
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\atividadeSwitchCase.pdb
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\atividadeSwitchCase.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\atividadeSwitchCase\obj\Debug\net7.0\ref\atividadeSwitchCase.dll
