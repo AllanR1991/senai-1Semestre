@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\bin\Debug\net7.0\atividadeDoWhile.exe
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\bin\Debug\net7.0\atividadeDoWhile.deps.json
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\bin\Debug\net7.0\atividadeDoWhile.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\bin\Debug\net7.0\atividadeDoWhile.dll
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\bin\Debug\net7.0\atividadeDoWhile.pdb
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\atividadeDoWhile.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\atividadeDoWhile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\atividadeDoWhile.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\atividadeDoWhile.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\atividadeDoWhile.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\atividadeDoWhile.dll
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\refint\atividadeDoWhile.dll
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\atividadeDoWhile.pdb
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\atividadeDoWhile.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\atividadeDoWhile\obj\Debug\net7.0\ref\atividadeDoWhile.dll
