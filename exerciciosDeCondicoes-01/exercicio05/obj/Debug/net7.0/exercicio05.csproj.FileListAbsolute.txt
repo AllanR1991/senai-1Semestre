@@ -13,3 +13,18 @@ C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exercic
 C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exercicio05\obj\Debug\net7.0\exercicio05.pdb
 C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exercicio05\obj\Debug\net7.0\exercicio05.genruntimeconfig.cache
 C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\exerciciosDeCondicoes\exercicio05\obj\Debug\net7.0\ref\exercicio05.dll
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\exercicio05.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\exercicio05.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\exercicio05.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\exercicio05.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\exercicio05.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\exercicio05.dll
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\refint\exercicio05.dll
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\exercicio05.pdb
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\bin\Debug\net7.0\exercicio05.exe
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\bin\Debug\net7.0\exercicio05.deps.json
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\bin\Debug\net7.0\exercicio05.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\bin\Debug\net7.0\exercicio05.dll
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\bin\Debug\net7.0\exercicio05.pdb
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\exercicio05.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\exerciciosDeCondicoes-01\exercicio05\obj\Debug\net7.0\ref\exercicio05.dll
