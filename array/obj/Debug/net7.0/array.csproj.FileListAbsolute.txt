@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\array\bin\Debug\net7.0\array.exe
+C:\Users\41017653836\Desktop\backEnd1\array\bin\Debug\net7.0\array.deps.json
+C:\Users\41017653836\Desktop\backEnd1\array\bin\Debug\net7.0\array.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\array\bin\Debug\net7.0\array.dll
+C:\Users\41017653836\Desktop\backEnd1\array\bin\Debug\net7.0\array.pdb
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\array.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\array.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\array.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\array.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\array.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\array.dll
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\refint\array.dll
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\array.pdb
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\array.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\array\obj\Debug\net7.0\ref\array.dll
