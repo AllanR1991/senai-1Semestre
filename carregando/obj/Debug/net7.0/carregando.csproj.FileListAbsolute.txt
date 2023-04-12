@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\carregando\bin\Debug\net7.0\carregando.exe
+C:\Users\41017653836\Desktop\backEnd1\carregando\bin\Debug\net7.0\carregando.deps.json
+C:\Users\41017653836\Desktop\backEnd1\carregando\bin\Debug\net7.0\carregando.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\carregando\bin\Debug\net7.0\carregando.dll
+C:\Users\41017653836\Desktop\backEnd1\carregando\bin\Debug\net7.0\carregando.pdb
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\carregando.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\carregando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\carregando.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\carregando.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\carregando.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\carregando.dll
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\refint\carregando.dll
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\carregando.pdb
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\carregando.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\carregando\obj\Debug\net7.0\ref\carregando.dll

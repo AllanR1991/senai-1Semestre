@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\funcao.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\funcao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\funcao.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\funcao.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\funcao.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\funcao\bin\Debug\net7.0\funcao.exe
+C:\Users\41017653836\Desktop\backEnd1\funcao\bin\Debug\net7.0\funcao.deps.json
+C:\Users\41017653836\Desktop\backEnd1\funcao\bin\Debug\net7.0\funcao.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\funcao\bin\Debug\net7.0\funcao.dll
+C:\Users\41017653836\Desktop\backEnd1\funcao\bin\Debug\net7.0\funcao.pdb
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\funcao.dll
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\refint\funcao.dll
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\funcao.pdb
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\funcao.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\funcao\obj\Debug\net7.0\ref\funcao.dll
