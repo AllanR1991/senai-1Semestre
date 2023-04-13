@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input type="text">
+    <button>Calcula Imposto</button>
+    <script>
+        function CalculaImposto(renda) {
+            let imposto = 0;
+            if (renda <= 1500) {
+                imposto = 0;
+            } else if (renda >= 1501 && renda <= 3500) {
+                imposto = renda * 0.20;
+            } else if (renda >= 3501 && renda <= 6000) {
+                imposto = renda * 0.25;
+            } else {
+                imposto = renda * 0.30;
+            }
+
+            return imposto;
+        }
+        renda = document.querySelector("input");
+       document.querySelector("button").onclick = exibeMensagem ;
+        
+       renda.focus();
+        function exibeMensagem(){
+
+            var imposto = CalculaImposto(renda.value);
+            alert("Seu imposto a pagar é :" + imposto );
+            renda.focus();
+        }
+    </script>
+</body>
+
+</html>
