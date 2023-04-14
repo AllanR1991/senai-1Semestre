@@ -12,6 +12,8 @@ da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago 
 sabendo-se que o preço do litro da gasolina é R$ 5,30 e o preço do litro do álcool é R$ 4,90.
 Dica: utilize switch case e funções/métodos para otimizar o algorítimo. */
 
+using System.Globalization;
+
 static string PerguntaString(string pergunta){
     Console.WriteLine(pergunta);
     return Console.ReadLine();
@@ -73,4 +75,4 @@ static float CalculaDesconsto(char tipoCombustivel, float qtdLitro){
 qtdLitro = PerguntaFloat($"Digite a quantidade de combustivel que deseja armazenar : ");
 tipoCombustivel = PerguntaChar($"Digite o tipo de combustivel (G)Gasolina e (A)Alcool : ");
 
-ExibeMensagem($"O valor a ser pago é : " + CalculaDesconsto(tipoCombustivel,qtdLitro));
+ExibeMensagem($"O valor a ser pago é : " + CalculaDesconsto(tipoCombustivel,qtdLitro).ToString("C", new CultureInfo("pt-BR")));
