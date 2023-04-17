@@ -44,6 +44,82 @@ O sistema deve exibir um menu com as seguintes opções:
 
 
 Ao cadastrar uma passagem ao final o sistema deverá perguntar se gostaria de cadastrar uma nova passagem caso contrário voltar ao menu anterior(S/N). */
+static int CadastroPassagem(int qtdMaxCadastro, string[] clientes, string[] origens, string[] destinos, string[] dataVoos, int contador)
+{
+    char cadastrarMais = ' ', sobreEscrever = ' ';
+
+    do
+    {
+        if (clientes[contador] == null)
+        {
+            clientes[contador] = PerguntaString($"\nDigite o nome do cliente : ");
+            origens[contador] = PerguntaString($"Qual a cidade a origem da viagem do Srº(ª) {clientes[contador]}: ");
+            destinos[contador] = PerguntaString($"Qual a cidade de destino da viagem do Srº(ª) {clientes[contador]}: ");
+            dataVoos[contador] = PerguntaString($"Informe a data que o Srº(ª) {clientes[contador]} deseja Viajar : ");
+            contador++;
+            if (contador > 4)
+            {
+                contador = 0;
+            }
+
+        }
+        else
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            ExibeMensagemPulandoLinha($"\nCadastro cheio deseja sobrescrever a passagem cadastrada para o cliente : {clientes[contador]}");
+            sobreEscrever = PerguntaChar("Deseja prosseguir com o cadastro (s) para sim e (n) para não");
+            Console.ResetColor();
+            if (sobreEscrever == 's')
+            {
+                clientes[contador] = PerguntaString($"Digite o nome do cliente : ");
+                origens[contador] = PerguntaString($"Qual a cidade a origem da viagem do Srº(ª) {clientes[contador]}: ");
+                destinos[contador] = PerguntaString($"Qual a cidade de destino da viagem do Srº(ª) {clientes[contador]}: ");
+                dataVoos[contador] = PerguntaString($"Informe a data que o Srº(ª) {clientes[contador]} deseja Viajar : ");
+                contador++;
+                if (contador > 4)
+                {
+                    contador = 0;
+                }
+            }
+            else
+            {
+                break;
+            }
+
+        }
+        cadastrarMais = PerguntaChar("Deseja cadastra mais uma passagem (s) para sim e (n) para não");
+    } while (cadastrarMais != 'n');
+
+    return contador;
+}
+
+static void exibePassagemCliente(string[] clientes, string[] origens, string[] destinos, string[] dataVoos)
+{
+    int contadorLista = 0;
+    foreach (var cliente in clientes)
+    {
+
+        if (cliente != null)
+        {
+            ExibeMensagemPulandoLinha(@$"
+----------------------------------------------
+        @@@@@      @@       @      @@@@@
+     @@@@@@@@@@@  @@@@@@@@@@    @@@@@@@@@@@
+        @@@@@       @@             @@@@@
+
+              Pasagem Aerea Latam
+
+Nome: {cliente}
+Origem: {origens[contadorLista]}
+Destino: {destinos[contadorLista]}
+Data: {dataVoos[contadorLista]}
+
+----------------------------------------------
+");
+            contadorLista++;
+        }
+    }
+}
 
 int qtdMaxCadastro = 5;
 string[] clientes = new string[qtdMaxCadastro];
@@ -53,16 +129,21 @@ string[] dataVoos = new string[qtdMaxCadastro];
 string senha = "123456";
 string usuario, senhaDigitada;
 char escolha;
+int contadorCadastro = 0;
 
 
-/* usuario = PerguntaString("Digite seu nome de usuario : ");
+
+usuario = PerguntaString("Digite seu nome de usuario : ");
 senhaDigitada = PerguntaString("Digite a senha para acessar o sistema : ");
 
 while (senhaDigitada != senha)
 {
     senhaDigitada = PerguntaString("A senha digita esta erra, digite a senha para acessar o sistema : ");
 }
- */
+
+
+
+
 ExibeMensagem(@$"
 -------------------------
 |                       |
@@ -78,6 +159,7 @@ ExibeMensagem(@$"
 do
 {
     ExibeMensagem(@$"
+
 Escolha uma das opções abaixo:
 
 -------------------------
@@ -87,6 +169,7 @@ Escolha uma das opções abaixo:
 |       0- Sair         |
 |                       |
 -------------------------
+
 ");
 
 
@@ -95,9 +178,10 @@ Escolha uma das opções abaixo:
     switch (escolha)
     {
         case '1':
-            CadastroPassagem(qtdMaxCadastro,clientes,origens,destinos,dataVoos);
+            contadorCadastro = CadastroPassagem(qtdMaxCadastro, clientes, origens, destinos, dataVoos, contadorCadastro);
             break;
         case '2':
+            exibePassagemCliente(clientes, origens, destinos, dataVoos);
             break;
         case '0':
             break;
@@ -105,22 +189,3 @@ Escolha uma das opções abaixo:
             break;
     }
 } while (escolha != '0');
-
-
-static void CadastroPassagem(int qtdMaxCadastro, string[] clientes, string[] origens, string[] destinos, string[] dataVoos){
-    int qtdCadastro = PerguntaInt($"Digite quantos cadastro deseja realizar *O sistema suporta no maximo {qtdMaxCadastro}");
-    for (int i = 0; i < qtdCadastro; i++)
-    {
-        clientes[i] = PerguntaString("Digite o nome do cliente : ");
-        /* origens[i] = PerguntaString("Digite a origem da viagem : ");
-        destinos[i] = PerguntaString("Digite o destino da Viagem : ");
-        dataVoos[i] = PerguntaString("Digite data da viagem : "); */
-    }
-
-
-}
-
-foreach (var item in clientes)
-{
-    ExibeMensagem($"Clientes {item}");
-}

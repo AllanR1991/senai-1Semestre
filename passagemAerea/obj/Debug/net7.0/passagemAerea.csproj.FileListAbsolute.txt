@@ -13,3 +13,18 @@ C:\Users\41017653836\Desktop\backEnd1\passagemAerea\obj\Debug\net7.0\refint\pass
 C:\Users\41017653836\Desktop\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.pdb
 C:\Users\41017653836\Desktop\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.genruntimeconfig.cache
 C:\Users\41017653836\Desktop\backEnd1\passagemAerea\obj\Debug\net7.0\ref\passagemAerea.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\bin\Debug\net7.0\passagemAerea.exe
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\bin\Debug\net7.0\passagemAerea.deps.json
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\bin\Debug\net7.0\passagemAerea.runtimeconfig.json
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\bin\Debug\net7.0\passagemAerea.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\bin\Debug\net7.0\passagemAerea.pdb
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.csproj.AssemblyReference.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.AssemblyInfoInputs.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.AssemblyInfo.cs
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.csproj.CoreCompileInputs.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\refint\passagemAerea.dll
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.pdb
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\passagemAerea.genruntimeconfig.cache
+C:\Users\allan\OneDrive\Área de Trabalho\backEnd1\passagemAerea\obj\Debug\net7.0\ref\passagemAerea.dll
