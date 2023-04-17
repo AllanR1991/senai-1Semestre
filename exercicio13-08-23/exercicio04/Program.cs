@@ -29,21 +29,24 @@ static void ExibeMensagem(string texto){
 /* 4 - Faça um programa que leia 10 valores digitados pelo usuário e no final, escreva o maior e o
 menor valor lido. */
 
-int[] numeros = new numeros[10];
-
+/* Declaraçao de variavel */
+float[] numeros = new float[10];
+float numMenor=0f,numMaior=0f;
+/* Entrada de Dados */
 for(int index = 0; index<numeros.Length;index++ ){
-    numeros[index] = PerguntaFloat()
+    numeros[index] = PerguntaFloat($"Digite o {index}º numero : ");
+    if(numeros[index]>numMaior){
+        numMaior=numeros[index];
+    }
 }
-/*Declaraçao de variavel*/
-int kmAtual, kmPercorrido, kmTotal;
+numMenor = numMaior;
+for(int index = 0; index<numeros.Length;index++ ){
+    
+    ExibeMensagem($"valor num Menor antes do IF {numMenor}");
+    if(numeros[index]<numMenor){
+        numMenor = numeros[index];
+    }
+}
 
-
-/* inicializaçao de uma variavel */
-kmAtual=400;
-kmPercorrido = PerguntaInt("Digite o quando percorreu: ");
-
-/* processamento */
-kmTotal = kmAtual + kmPercorrido;
-
-/* saida */
-ExibeMensagem("{kmTotal}");
+ExibeMensagem($"O maior numero digitado foi : {numMaior}");
+ExibeMensagem($"O menor numero digitado foi : {numMenor}");

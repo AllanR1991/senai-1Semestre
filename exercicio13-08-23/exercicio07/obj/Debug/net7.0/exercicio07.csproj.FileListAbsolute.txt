@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\bin\Debug\net7.0\exercicio07.exe
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\bin\Debug\net7.0\exercicio07.deps.json
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\bin\Debug\net7.0\exercicio07.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\bin\Debug\net7.0\exercicio07.dll
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\bin\Debug\net7.0\exercicio07.pdb
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\exercicio07.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\exercicio07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\exercicio07.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\exercicio07.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\exercicio07.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\exercicio07.dll
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\refint\exercicio07.dll
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\exercicio07.pdb
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\exercicio07.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\exercicio13-08-23\exercicio07\obj\Debug\net7.0\ref\exercicio07.dll
