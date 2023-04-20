@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\bin\Debug\net7.0\exemploClasse.exe
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\bin\Debug\net7.0\exemploClasse.deps.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\bin\Debug\net7.0\exemploClasse.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\bin\Debug\net7.0\exemploClasse.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\bin\Debug\net7.0\exemploClasse.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\exemploClasse.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\exemploClasse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\exemploClasse.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\exemploClasse.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\exemploClasse.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\exemploClasse.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\refint\exemploClasse.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\exemploClasse.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\exemploClasse.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploClasse\obj\Debug\net7.0\ref\exemploClasse.dll
