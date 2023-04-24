@@ -7,6 +7,7 @@ namespace exemploClasse
        Declaração de propriedades
        1 assinatua ,2 tipo, 3 nome.
        */ 
+       /* mockar - trabalhar com dados fixos*/
        public string nome = "Tony Stark";
        public int idade = 35;
        public string armadura = "Bleeding Edge";

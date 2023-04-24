@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\progamCadastraAluno.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\progamCadastraAluno.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\progamCadastraAluno.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\progamCadastraAluno.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\progamCadastraAluno.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\bin\Debug\net7.0\progamCadastraAluno.exe
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\bin\Debug\net7.0\progamCadastraAluno.deps.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\bin\Debug\net7.0\progamCadastraAluno.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\bin\Debug\net7.0\progamCadastraAluno.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\bin\Debug\net7.0\progamCadastraAluno.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\progamCadastraAluno.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\refint\progamCadastraAluno.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\progamCadastraAluno.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\progamCadastraAluno.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\progamCadastraAluno\obj\Debug\net7.0\ref\progamCadastraAluno.dll
