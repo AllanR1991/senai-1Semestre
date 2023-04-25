@@ -39,14 +39,20 @@ string opcao;
 CadastrarAluno aluno = new CadastrarAluno();
 
 aluno.nome = PerguntaString("Digite o nome do Aluno(a): ");
+aluno.curso = PerguntaString($"Digite o nome do curso que o {aluno.nome} esta cursando: ");
 aluno.idade = PerguntaString($"Digite a idade do(a) {aluno.nome}: ");
 aluno.rg = PerguntaString($"Digite o rg do(a) {aluno.nome}: ");
 string boleano = PerguntaString("Aluno é bosista (sim) ou (não): ");
-if(boleano=="sim"){
+
+aluno.bolsista = boleano == "sim" ? true : false;
+
+/* aluno.bolsista = boleano == "sim"; */
+
+/* if(boleano=="sim"){
     aluno.bolsista = true;
 }else{
     aluno.bolsista = false;
-}
+} */
 aluno.mediaFinal = PerguntaFloat($"Digite a média final do {aluno.nome}");
 aluno.valorMensalidade = PerguntaFloat($"Digite o valor da mensalidade a ser paga pelo(a) {aluno.nome}");
 
@@ -54,12 +60,15 @@ aluno.valorMensalidade = PerguntaFloat($"Digite o valor da mensalidade a ser pag
 do{
 
 opcao = PerguntaString(@"
-Escolha uma das opções abaixo no menu:
-
-(1) - Visualizar a média
-(2) - Valor da mensalidade
-(0) - Sair
-
+************************************************
+*                                              *
+*   Escolha uma das opções abaixo no menu:     *
+*                                              *
+*   (1) - Visualizar a média                   *   
+*   (2) - Valor da mensalidade                 *
+*   (0) - Sair                                 *   
+*                                              *
+************************************************
 ");
 
 switch(opcao){

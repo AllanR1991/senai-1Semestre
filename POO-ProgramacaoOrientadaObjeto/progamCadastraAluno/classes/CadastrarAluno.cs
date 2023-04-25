@@ -52,7 +52,6 @@ namespace progamCadastraAluno.classes
         {
             ExibeMensagemPulandoLinha(@$"A media final do {this.nome} é igual a : {this.mediaFinal}");
         }
-
         public void VerMensalidade()
         {
             if(bolsista && mediaFinal>=8 ){
