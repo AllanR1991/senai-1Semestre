@@ -46,9 +46,9 @@ string opcao;
 
 Celular novoCelular = new Celular();
 
-/* novoCelular.Cor = PerguntaString("Qual a cor do celular : ");
+novoCelular.Cor = PerguntaString("Qual a cor do celular : ");
 novoCelular.Modelo = PerguntaString("Qual o modelo do celular : ");
-novoCelular.Tamanho = PerguntaString("Qual o tamanho do celular : "); */
+novoCelular.Tamanho = PerguntaString("Qual o tamanho do celular : ");
 string celularLigado = PerguntaString("Celular Desligado, deseja Ligar: ");
 novoCelular.Ligado = celularLigado.ToLower()=="sim";
 
