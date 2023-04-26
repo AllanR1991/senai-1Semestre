@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\bin\Debug\net7.0\programCelular.exe
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\bin\Debug\net7.0\programCelular.deps.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\bin\Debug\net7.0\programCelular.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\bin\Debug\net7.0\programCelular.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\bin\Debug\net7.0\programCelular.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\programCelular.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\programCelular.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\programCelular.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\programCelular.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\programCelular.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\programCelular.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\refint\programCelular.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\programCelular.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\programCelular.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\programCelular\obj\Debug\net7.0\ref\programCelular.dll

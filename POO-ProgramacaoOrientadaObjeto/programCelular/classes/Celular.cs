@@ -54,22 +54,27 @@ namespace programCelular.classes
 
         public void Ligar()
         {
-            ExibeMensagemPulandoLinha
+            BarraCarregamento("\nCarregando",10,500);
         }
 
-        public Desligar()
+        public void Desligar()
         {
-
+            BarraCarregamento("\nDesligando",10,250);
         }
 
-        public FazerLigacao()
+        public void FazerLigacao()
         {
-
+            PerguntaString("Digite o número : ");
+            BarraCarregamento("Ligando",10,250);
         }
 
-        public EnviarMensagem()
+        public void EnviarMensagem()
         {
-
+            string mesnsagem = PerguntaString("Digite a mensagem a enviar");
+            if(mesnsagem!=""){
+                BarraCarregamento("\nEnviando mensagem",10,250);
+            }
+            
         }
     }
 }
