@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\CoversaoMoedaRealDollar.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\CoversaoMoedaRealDollar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\CoversaoMoedaRealDollar.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\CoversaoMoedaRealDollar.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\CoversaoMoedaRealDollar.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\bin\Debug\net7.0\CoversaoMoedaRealDollar.exe
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\bin\Debug\net7.0\CoversaoMoedaRealDollar.deps.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\bin\Debug\net7.0\CoversaoMoedaRealDollar.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\bin\Debug\net7.0\CoversaoMoedaRealDollar.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\bin\Debug\net7.0\CoversaoMoedaRealDollar.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\CoversaoMoedaRealDollar.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\refint\CoversaoMoedaRealDollar.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\CoversaoMoedaRealDollar.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\CoversaoMoedaRealDollar.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\obj\Debug\net7.0\ref\CoversaoMoedaRealDollar.dll

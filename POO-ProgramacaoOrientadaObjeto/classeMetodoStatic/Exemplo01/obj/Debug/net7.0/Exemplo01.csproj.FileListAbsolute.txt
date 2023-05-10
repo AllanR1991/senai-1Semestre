@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\bin\Debug\net7.0\Exemplo01.exe
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\bin\Debug\net7.0\Exemplo01.deps.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\bin\Debug\net7.0\Exemplo01.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\bin\Debug\net7.0\Exemplo01.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\bin\Debug\net7.0\Exemplo01.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\Exemplo01.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\Exemplo01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\Exemplo01.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\Exemplo01.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\Exemplo01.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\Exemplo01.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\refint\Exemplo01.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\Exemplo01.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\Exemplo01.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\Exemplo01\obj\Debug\net7.0\ref\Exemplo01.dll
