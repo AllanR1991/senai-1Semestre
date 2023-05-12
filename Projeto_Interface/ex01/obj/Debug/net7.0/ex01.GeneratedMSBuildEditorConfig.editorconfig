@@ -7,5 +7,5 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = CoversaoMoedaRealDollar
-build_property.ProjectDir = c:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\classeMetodoStatic\CoversaoMoedaRealDollar\
+build_property.RootNamespace = ex01
+build_property.ProjectDir = C:\Users\41017653836\Desktop\backEnd1\Projeto_Interface\ex01\

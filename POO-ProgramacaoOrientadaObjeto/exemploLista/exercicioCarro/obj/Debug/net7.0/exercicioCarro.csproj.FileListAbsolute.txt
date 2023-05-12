@@ -1,0 +1,15 @@
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\bin\Debug\net7.0\exercicioCarro.exe
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\bin\Debug\net7.0\exercicioCarro.deps.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\bin\Debug\net7.0\exercicioCarro.runtimeconfig.json
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\bin\Debug\net7.0\exercicioCarro.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\bin\Debug\net7.0\exercicioCarro.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\exercicioCarro.csproj.AssemblyReference.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\exercicioCarro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\exercicioCarro.AssemblyInfoInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\exercicioCarro.AssemblyInfo.cs
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\exercicioCarro.csproj.CoreCompileInputs.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\exercicioCarro.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\refint\exercicioCarro.dll
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\exercicioCarro.pdb
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\exercicioCarro.genruntimeconfig.cache
+C:\Users\41017653836\Desktop\backEnd1\POO-ProgramacaoOrientadaObjeto\exemploLista\exercicioCarro\obj\Debug\net7.0\ref\exercicioCarro.dll
