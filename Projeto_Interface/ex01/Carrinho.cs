@@ -13,7 +13,7 @@ namespace ex01
             carrinho.Add(_produto);
         }
 
-        public void Atualizar(int _codigo, Produto _novoproduto)
+            public void Atualizar(int _codigo, Produto _novoproduto)
         {
             PeR.ExibeMensagemPulandoLinha($"carrinho.Find(x => x.Codigo == _codigo) => {carrinho.Find(x => x.Codigo == _codigo)}");
             PeR.ExibeMensagemPulandoLinha($"carrinho.Find(x => x.Codigo == _codigo).Nome => {carrinho.Find(x => x.Codigo == _codigo).Nome}");
