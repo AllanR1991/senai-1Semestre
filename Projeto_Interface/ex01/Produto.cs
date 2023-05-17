@@ -1,5 +1,3 @@
-
-
 namespace ex01
 {
     public class Produto

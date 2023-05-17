@@ -1,4 +1,4 @@
-namespace projetoprodutos.classes
+namespace projetoProdutos.classes
 {
     public static class PeR
     {

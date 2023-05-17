@@ -12,7 +12,7 @@ namespace projetoProdutos.classes
         public float Preco { get; private set; }
         public DateTime DataCadastro { get; private set; }
         
-        public Marca marca = new Marca();
+        public Marca Marca = new Marca();
 
         public Usuario CadastradoPor = new Usuario();
 
@@ -21,6 +21,8 @@ namespace projetoProdutos.classes
         /*-------------------------------------------------------*/
         
         public string Cadastrar(Produto produto){
+            
+            
             return "";
         }
 

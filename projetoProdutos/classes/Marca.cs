@@ -11,8 +11,8 @@ namespace projetoProdutos.classes
         public string NomeMarca { get;private set; }
         public DateTime DataCadastro { get;private set; }
 
-        public string Cadastrar (Marca marca){
-            return "";
+        public Marca Cadastrar (Marca marca){
+            return marca;
         }
         List<Marca>ListaDeMarca = new List<Marca>();
         public List<Marca> Listar(){
