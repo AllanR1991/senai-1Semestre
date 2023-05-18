@@ -3,7 +3,7 @@ namespace projetoProdutos.classes
 {
     public class Usuario
     {
-        public List<Usuario> listaDeUsuarios = new List<Usuario>();
+        public List<Usuario> listaDeUsuarios = new List<Usuario>();   
         
         public int Codigo { get; private set; }
         public string Nome { get; private set; }
@@ -16,13 +16,23 @@ namespace projetoProdutos.classes
         public Usuario(){
             
         }
-        public Usuario(int _codigo, string _nome, string _email, string _senha, DateTime _dataCadastro)
-        {
+        public Usuario(int _codigo, string _nome, string _email, string _senha, DateTime _dataCadastro){
+          this.Codigo = _codigo;
+          this.Nome = _nome;
+          this.Email = _email;
+          this.Senha = _senha;
+          this.DataCadastro = _dataCadastro;
         }
 
         public void UsuarioPadrao(){
-            listaDeUsuarios.Add(new Usuario(1, "admin","admin@admin","admin",DateTime.Now));
-        }
+           Usuario novoUsuario = new Usuario();
+            listaDeUsuarios.Add(new Usuario(0, "admin","admin@admin","admin",DateTime.Now));
+
+          /*   foreach (Usuario usuario in listaDeUsuarios)
+          {
+            Console.WriteLine("Item na lista "+ usuario.Nome);
+          }*/
+        } 
 
         public string Cadastrar(){
             int codigo = PeR.PerguntaInt("Informe o código do usuário :");
@@ -31,12 +41,12 @@ namespace projetoProdutos.classes
             string senha = PeR.PerguntaString($"Srº(ª) {nome} digite sua senha :");
             DateTime dataAtual = DateTime.Now;
 
-            listaDeUsuarios.Add(new Usuario(codigo, nome,email,senha,dataAtual));
+            listaDeUsuarios.Add(new Usuario(codigo, nome,email,senha,dataAtual));   
             return "";
         }
 
         public string Deletar(Usuario _newUsuario){
-            usuarios.Remove(_newUsuario);
+            
             return "";
         }
     }
