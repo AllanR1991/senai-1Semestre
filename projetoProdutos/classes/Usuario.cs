@@ -27,6 +27,7 @@ namespace projetoProdutos.classes
         public void UsuarioPadrao(){
            Usuario novoUsuario = new Usuario();
             listaDeUsuarios.Add(new Usuario(0, "admin","admin@admin","admin",DateTime.Now));
+            listaDeUsuarios.Add(new Usuario(1, "kamille","kamille@kamille","kamille",DateTime.Now));
 
           /*   foreach (Usuario usuario in listaDeUsuarios)
           {
@@ -45,9 +46,66 @@ namespace projetoProdutos.classes
             return "";
         }
 
-        public string Deletar(Usuario _newUsuario){
-            
+        public string Deletar(List<Usuario> listaUsuario){
+
+            /* produto.removeat(index); */
             return "";
+        }
+
+        public void Listar(List<Usuario> listaUsuario){
+          PeR.ExibeMensagemPulandoLinha(@"
+
+---------------------------------------------------------------------------------------------
+                                     Lista de Usuarios
+---------------------------------------------------------------------------------------------
+
+");
+            
+            foreach (Usuario item in listaDeUsuarios)
+            {
+              PeR.ExibeMensagemPulandoLinha($"Código : {item.Codigo} - Nome : {item.Nome} - E-mail : {item.Email} ");
+            }
+            PeR.ExibeMensagemPulandoLinha("---------------------------------------------------------------------------------------------");
+        }
+
+        public void ExibeMenuUsuario(List<Usuario> listaUsuario){
+          int opcaoMenuUsuario;
+
+            do
+            {
+                opcaoMenuUsuario = PeR.PerguntaInt(@$"
+*************************
+*                       *
+*     Menu Usuario      *
+*                       *
+*************************
+*                       *
+*    1) Cadastar        *
+*    2) Deletar         *
+*    4) Deslogar        *
+*                       *
+*************************  
+            ");
+                switch (opcaoMenuUsuario)
+                {
+                    case 1:
+                        Cadastrar();
+                        break;
+                    case 2:
+                        Listar(listaUsuario);
+                        int codigoSelecionado =  PeR.PerguntaInt("Digite o codigo do usuario que deseja deletar : ");
+                        
+                        Deletar(listaUsuario);
+                        break;
+                    case 3:
+                        break;
+                    case 4:
+                        break;
+                    default:
+                        break;
+                }
+                
+            } while (opcaoMenuUsuario == 4);
         }
     }
 }
