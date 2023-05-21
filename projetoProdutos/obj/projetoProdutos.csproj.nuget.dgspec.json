@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\41017653836\\Desktop\\backEnd1\\projetoProdutos\\projetoProdutos.csproj": {}
+    "C:\\Users\\allan\\Documents\\backEnd1\\projetoProdutos\\projetoProdutos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\41017653836\\Desktop\\backEnd1\\projetoProdutos\\projetoProdutos.csproj": {
+    "C:\\Users\\allan\\Documents\\backEnd1\\projetoProdutos\\projetoProdutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\41017653836\\Desktop\\backEnd1\\projetoProdutos\\projetoProdutos.csproj",
+        "projectUniqueName": "C:\\Users\\allan\\Documents\\backEnd1\\projetoProdutos\\projetoProdutos.csproj",
         "projectName": "projetoProdutos",
-        "projectPath": "C:\\Users\\41017653836\\Desktop\\backEnd1\\projetoProdutos\\projetoProdutos.csproj",
-        "packagesPath": "C:\\Users\\41017653836\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\41017653836\\Desktop\\backEnd1\\projetoProdutos\\obj\\",
+        "projectPath": "C:\\Users\\allan\\Documents\\backEnd1\\projetoProdutos\\projetoProdutos.csproj",
+        "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\allan\\Documents\\backEnd1\\projetoProdutos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\41017653836\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

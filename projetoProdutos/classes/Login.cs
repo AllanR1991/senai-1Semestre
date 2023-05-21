@@ -1,52 +1,130 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace projetoProdutos.classes
 {
     public class Login
     {
         public bool Logado { get; private set; }
 
+        public Usuario logado;
+        Usuario objUsuario = new Usuario();
+
+        Marca objMarca= new Marca();
         public Login()
         {
-            Usuario usuario = new Usuario();
-            usuario.UsuarioPadrao();
-            Logar(usuario.listaDeUsuarios);
-            foreach (var item in usuario.listaDeUsuarios)
-            {
-                Console.WriteLine("Item na lista " + item.Nome);
-            }
+             
         }
-        public void Logar(List<Usuario> usuarios)
+
+        public void InicializaUsuario(){
+            objUsuario.UsuarioPadrao();
+        }
+        public void Logar(Login login)
         {
+            List<Usuario> objLista = objUsuario.listaDeUsuarios;
             string nomeUsuario;
             string senhaUsuario;
+            bool senhaCorreta = false;
+            bool usuarioExiste = false;
+            string mensagemErroLogin = "\nUsuario ou senha estão incorretos.\n";
             do
             {
                 nomeUsuario = PeR.PerguntaString("Digite o nome do usuario :");
                 senhaUsuario = PeR.PerguntaString("Digite sua senha :");
-                
-                if ((usuarios.Find(x => x.Nome == nomeUsuario) != null ) && (usuarios.Find(x => x.Senha == senhaUsuario) != null))
+
+                usuarioExiste = (objLista.Find(x => x.Nome == nomeUsuario) != null);
+
+                if (usuarioExiste)
                 {
-                    Usuario usuarioEncontrado = usuarios.Find(x => x.Nome == nomeUsuario);
-                    int index = usuarios.IndexOf(usuarioEncontrado);
+                    /*Procura um objeto usuario que contem o nome digitado em "nomeUsuario"*/
+                    Usuario usuarioEncontrado = objLista.Find(x => x.Nome == nomeUsuario);
+                    /*Pega o indice do objeto encontrado e armazena em index*/
+                    int index = objLista.IndexOf(usuarioEncontrado);
+                    /*vericia se a senha é igual o indice encontrado*/
+                    senhaCorreta = (
+                        objLista[index].Nome == nomeUsuario && objLista[index].Senha == senhaUsuario
+                    );
 
-                    if (usuarios[index].Nome == nomeUsuario && usuarios[index].Senha == senhaUsuario)
+                    if (senhaCorreta)
                     {
-                        Console.WriteLine("Logado com sucesso");
+                        Usuario usuarioLogado;
+                        PeR.ExibeMensagemPulandoLinha("Logado com sucesso");
+                        PeR.ExibeMensagem(@$"
+*************************
+*                       *
+*       System of       *
+*        Product        *
+*                       *
+*************************   
+                ");
+                        ExibeMenuPrincipal(login);
                     }
-                }else
+                    else
                     {
-                        Console.WriteLine("Usuario ou senha estão incorretos.");
+                        senhaCorreta = false;
+                        PeR.ExibeMensagemPulandoLinha(mensagemErroLogin);
                     }
-            } while ((usuarios.Find(x => x.Nome == nomeUsuario) == null) || (usuarios.Find(x => x.Senha == senhaUsuario) == null));
+                }
+                else
+                {
+                    PeR.ExibeMensagemPulandoLinha(mensagemErroLogin);
+                }
+            } while ((!usuarioExiste || !senhaCorreta));
         }
-        public string Deslogar(Usuario usuario)
+
+        public void Deslogar(Login login)
         {
-            return "";
+            char desejaDeslogar  = PeR.PerguntaChar("Deseja deslogar mesmo? (Digite (s) para sim e (n) para não)");
+            if(desejaDeslogar == 's'){
+                
+                char logarNovamente = PeR.PerguntaChar("Deseja logar com outro usuario? (Digite (s) para sim e (n) para não)");
+                if(logarNovamente == 's'){
+                    login.Logar(login);
+                }else{
+                    PeR.ExibeMensagemPulandoLinha("Sistema sendo encerrado.");
+                    Environment.Exit(0);
+                }
+                
+            }else{
+                PeR.ExibeMensagemPulandoLinha("Operação deslogar, cancelada.");
+            }
         }
 
+        public void ExibeMenuPrincipal(Login login)
+        {
+            
+            int opcaoMenuPrincipal;
+            do
+            {
+                opcaoMenuPrincipal = PeR.PerguntaInt(@$"
+*************************
+*                       *
+*    Menu Principal     *
+*                       *
+*************************
+*                       *
+*    1) Usuario         *
+*    2) Produto         *
+*    3) Marca           *
+*    4) Deslogar        *
+*                       *
+*************************  
+                ");
+                switch (opcaoMenuPrincipal)
+                {
+                    case 1:
+                        objUsuario.ExibeMenuUsuario(objUsuario.listaDeUsuarios, login);
+                        break;
+                    case 2:
+                        
+                        break;
+                    case 3:
+                        objMarca.ExibeMenuMarca(objMarca,login);
+                        break;
+                    case 4:
+                        break;
+                    default:
+                        break;
+                }
+                
+            } while(opcaoMenuPrincipal == 4);
+        }
     }
 }
