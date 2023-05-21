@@ -7,6 +7,7 @@ namespace projetoProdutos.classes
         public Usuario logado;
         Usuario objUsuario = new Usuario();
 
+        Produto objProduto = new Produto();
         Marca objMarca= new Marca();
         public Login()
         {
@@ -22,7 +23,7 @@ namespace projetoProdutos.classes
             List<Usuario> objLista = objUsuario.listaDeUsuarios;
             string nomeUsuario;
             string senhaUsuario;
-
+            int index;
             bool senhaCorreta = false;
             bool usuarioExiste = false;
 
@@ -40,7 +41,7 @@ namespace projetoProdutos.classes
                     /*Procura um objeto usuario que contem o nome digitado em "nomeUsuario"*/
                     Usuario usuarioEncontrado = objLista.Find(x => x.Nome == nomeUsuario);
                     /*Pega o indice do objeto encontrado e armazena em index*/
-                    int index = objLista.IndexOf(usuarioEncontrado);
+                    index = objLista.IndexOf(usuarioEncontrado);
                     /*vericia se a senha é igual o indice encontrado*/
                     senhaCorreta = (
                         objLista[index].Nome == nomeUsuario && objLista[index].Senha == senhaUsuario
@@ -48,7 +49,7 @@ namespace projetoProdutos.classes
 
                     if (senhaCorreta)
                     {
-                        Usuario usuarioLogado;
+                        Usuario logado = objUsuario.SetUsuarioLogado(objLista[index]);
                         PeR.ExibeMensagemPulandoLinha("Logado com sucesso");
                         PeR.ExibeMensagem(@$"
 *************************
@@ -58,7 +59,7 @@ namespace projetoProdutos.classes
 *                       *
 *************************   
                 ");
-                        ExibeMenuPrincipal(login);
+                        ExibeMenuPrincipal(logado,login);
 
                     }
                     else
@@ -78,7 +79,7 @@ namespace projetoProdutos.classes
 
         public void Deslogar(Login login)
         {
-            char desejaDeslogar  = PeR.PerguntaChar("Deseja deslogar mesmo? (Digite (s) para sim e (n) para não)");
+            char desejaDeslogar  = PeR.PerguntaChar("\nDeseja deslogar mesmo? (Digite (s) para sim e (n) para não)");
             if(desejaDeslogar == 's'){
                 
                 char logarNovamente = PeR.PerguntaChar("Deseja logar com outro usuario? (Digite (s) para sim e (n) para não)");
@@ -94,7 +95,7 @@ namespace projetoProdutos.classes
             }
         }
 
-        public void ExibeMenuPrincipal(Login login)
+        public void ExibeMenuPrincipal(Usuario usuarioLogado,Login login)
         {
             
             int opcaoMenuPrincipal;
@@ -119,13 +120,13 @@ namespace projetoProdutos.classes
                 switch (opcaoMenuPrincipal)
                 {
                     case 1:
-                        objUsuario.ExibeMenuUsuario(objUsuario.listaDeUsuarios, login);
+                        objUsuario.ExibeMenuUsuario(objUsuario.listaDeUsuarios, login, usuarioLogado);
                         break;
                     case 2:
-                        
+                        objProduto.ExibeMenuProduto(objMarca.listaDeMarca, objProduto.ListaDeProdutos,login,usuarioLogado);
                         break;
                     case 3:
-                        objMarca.ExibeMenuMarca(objMarca,login);
+                        objMarca.ExibeMenuMarca(objMarca.listaDeMarca,objMarca,login,usuarioLogado);
 
                         break;
                     case 4:

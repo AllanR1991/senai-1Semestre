@@ -10,7 +10,7 @@ namespace projetoProdutos.classes
         public int Codigo { get; private set; }
         public string NomeMarca { get; private set; }
         public DateTime DataCadastro { get; private set; }
-        List<Marca> listaDeMarca = new List<Marca>();
+        public List<Marca> listaDeMarca = new List<Marca>();
         List<Marca> listaDeMarcaExcluidas = new List<Marca>();
         
         /* Marca marca = new Marca(); */
@@ -24,18 +24,21 @@ namespace projetoProdutos.classes
             this.DataCadastro = _dataCadastro;
         }
 
-        public void Cadastrar(Marca objMarca)
+        public Marca Cadastrar(List<Marca> listaDeMarca)
         {
-            int codigo = PeR.PerguntaInt("Informe o código da Marca :");
-            string marca = PeR.PerguntaString("Informe o nome da Marca :");
-            DateTime dataAtual = DateTime.Now;
+            Marca objMarca = new Marca();
+
+            objMarca.Codigo = PeR.PerguntaInt("\nInforme o código da Marca :");
+            objMarca.NomeMarca = PeR.PerguntaString("Informe o nome da Marca :");
+            objMarca.DataCadastro = DateTime.Now;
 
             PeR.ExibeMensagem("\n");
 
-            listaDeMarca.Add(new Marca(codigo, marca, dataAtual));
+            listaDeMarca.Add(objMarca);
+            return objMarca;
         }
 
-        public void Listar()
+        public void Listar(List<Marca> listaDeMarca)
         {
             if (listaDeMarca.Count > 0)
             {
@@ -70,7 +73,7 @@ namespace projetoProdutos.classes
             char desejaDeletar;
             int indice;
             int codigoSelecionado = PeR.PerguntaInt(
-                "Digite o codigo do usuario que deseja deletar : "
+                "Digite o codigo da marca que deseja deletar : "
             );
             codigoExiste = (listaDeMarca.Find(x => x.Codigo == codigoSelecionado) != null);
             if (codigoExiste)
@@ -114,58 +117,99 @@ Produto : {listaDeMarca[indice].NomeMarca}
             }
         }
 
-        public void ExibeMenuMarca(Marca objMarca,Login login) { 
-            int opcaoMenuUsuario;
+        public void RelatorioMarcaExcluidas(){
+            if (listaDeMarcaExcluidas.Count > 0)
+            {
+                PeR.ExibeMensagemPulandoLinha(
+                    @"
+
+---------------------------------------------------------------------------------------------
+                                Lista de Usuarios Deletados
+---------------------------------------------------------------------------------------------
+
+"
+                );
+                int contador = 1;
+                foreach (Marca objMarca in listaDeMarcaExcluidas)
+                {
+                    PeR.ExibeMensagemPulandoLinha(
+                        $"{contador} Código : {objMarca.Codigo} - Marca: {objMarca.NomeMarca}"
+                    );
+                    contador++;
+                }
+                PeR.ExibeMensagemPulandoLinha(
+                    "---------------------------------------------------------------------------------------------\n"
+                );
+            }else{
+                PeR.ExibeMensagemPulandoLinha("\nNão possui nenhum item excluido no sistema.\n");
+            }
+        }
+
+        public void ExibeMenuMarca(List<Marca> listaDeMarca,Marca objMarca,Login login, Usuario usuarioLogado) { 
+            int opcaoMenuMarca;
             
             do
             {
-                opcaoMenuUsuario = PeR.PerguntaInt(
+                opcaoMenuMarca = PeR.PerguntaInt(
                     @$"
+                    
 *************************
 *                       *
-*     Menu Produto      *
+*      Menu Marca       *
 *                       *
 *************************
 *                       *
 *    1) Cadastar        *
+*                       *
 *    2) Deletar         *
-*    3) Relatorio de    *
+*                       *
+*    3) Lista de        * 
+*       Marcas          *
+*                       *
+*    4) Relatorio de    *
 *       exclusão        *
-*    4) Deslogar        *
-*    5) Voltar ao Menu  *
+*                       *
+*    5) Deslogar        *
+*                       *
+*    6) Voltar ao Menu  *
 *       Principal       *
-*    6) Fechar o        *
+*                       *
+*    7) Fechar o        *
 *       sistema         *
 *                       *
-*************************   
+*************************     
+                
                 "
                 );
-                switch (opcaoMenuUsuario)
+                switch (opcaoMenuMarca)
                 {
                     case 1:
-                        Cadastrar(objMarca);
+                        Cadastrar(listaDeMarca);
                         break;
                     case 2:
-                        Listar();
+                        Listar(listaDeMarca);
                         Deletar(listaDeMarca,login);
                         break;
                     case 3:
-                        /* RelatorioUsuariosExcluidos(); */
+                        Listar(listaDeMarca);
                         break;
                     case 4:
-                        /* login.Deslogar(login); */
+                        RelatorioMarcaExcluidas();
                         break;
                     case 5:
-                        /* login.ExibeMenuPrincipal(login); */
+                        login.Deslogar(login);
                         break;
                     case 6:
+                        login.ExibeMenuPrincipal(usuarioLogado,login);
+                        break;
+                    case 7:
                         /*Para o sistema geral*/
                         Environment.Exit(0);
                         break;
                     default:
                         break;
                 }
-            } while (opcaoMenuUsuario != 6);
+            } while (opcaoMenuMarca != 7);
         }
     }
 }

@@ -35,7 +35,6 @@ namespace projetoProdutos.classes
                 new Usuario(1, "kamille", "kamille@kamille.com", "kamille", DateTime.Now)
             );
 
-
             /*   foreach (Usuario usuario in listaDeUsuarios)
             {
               Console.WriteLine("Item na lista "+ usuario.Nome);
@@ -44,7 +43,7 @@ namespace projetoProdutos.classes
 
         public string Cadastrar()
         {
-            int codigo = PeR.PerguntaInt("Informe o código do usuário :");
+            int codigo = PeR.PerguntaInt("\nInforme o código do usuário :");
             string nome = PeR.PerguntaString("Infome o nome do Usuario :");
             string email = PeR.PerguntaString($"Informe o e-mail do usuario ({nome}) :");
             string senha = PeR.PerguntaString($"Srº(ª) {nome} digite sua senha :");
@@ -55,6 +54,7 @@ namespace projetoProdutos.classes
             listaDeUsuarios.Add(new Usuario(codigo, nome, email, senha, dataAtual));
             return "";
         }
+
         public void Deletar(List<Usuario> listaDeUsuarios, Login login)
         {
             bool codigoExiste;
@@ -91,7 +91,6 @@ Email : {listaDeUsuarios[indice].Email}
                 {
                     listaExcluidos.Add(listaDeUsuarios[indice]);
                     listaDeUsuarios.RemoveAt(indice);
-                    
                 }
                 else
                 {
@@ -133,7 +132,8 @@ Email : {listaDeUsuarios[indice].Email}
             }
         }
 
-        public void RelatorioUsuariosExcluidos(){
+        public void RelatorioUsuariosExcluidos()
+        {
             if (listaExcluidos.Count > 0)
             {
                 PeR.ExibeMensagemPulandoLinha(
@@ -156,15 +156,32 @@ Email : {listaDeUsuarios[indice].Email}
                 PeR.ExibeMensagemPulandoLinha(
                     "---------------------------------------------------------------------------------------------\n"
                 );
-            }else{
+            }
+            else
+            {
                 PeR.ExibeMensagemPulandoLinha("\nNão possui nenhum item excluido no sistema.\n");
             }
         }
 
-        public void ExibeMenuUsuario(List<Usuario> listaDeUsuarios, Login login)
+        public Usuario SetUsuarioLogado(Usuario userLogado)
+        {
+            Usuario logado = new Usuario();
+            logado.Codigo = userLogado.Codigo;
+            logado.Nome = userLogado.Nome;
+            logado.Email = userLogado.Email;
+            logado.DataCadastro = DateTime.Now;
+
+            return logado;
+        }
+
+        public void ExibeMenuUsuario(
+            List<Usuario> listaDeUsuarios,
+            Login login,
+            Usuario usuarioLogado
+        )
         {
             int opcaoMenuUsuario;
-            
+
             do
             {
                 opcaoMenuUsuario = PeR.PerguntaInt(
@@ -176,13 +193,21 @@ Email : {listaDeUsuarios[indice].Email}
 *************************
 *                       *
 *    1) Cadastar        *
+*                       *
 *    2) Deletar         *
-*    3) Relatorio de    *
+*                       *
+*    3) Lista de        * 
+*       Usuarios        *
+*                       *
+*    4) Relatorio de    *
 *       exclusão        *
-*    4) Deslogar        *
-*    5) Voltar ao Menu  *
+*                       *
+*    5) Deslogar        *
+*                       *
+*    6) Voltar ao Menu  *
 *       Principal       *
-*    6) Fechar o        *
+*                       *
+*    7) Fechar o        *
 *       sistema         *
 *                       *
 *************************   
@@ -195,25 +220,28 @@ Email : {listaDeUsuarios[indice].Email}
                         break;
                     case 2:
                         Listar(listaDeUsuarios);
-                        Deletar(listaDeUsuarios,login);
+                        Deletar(listaDeUsuarios, login);
                         break;
                     case 3:
-                        RelatorioUsuariosExcluidos();
+                        Listar(listaDeUsuarios);
                         break;
                     case 4:
-                        login.Deslogar(login);
+                        RelatorioUsuariosExcluidos();
                         break;
                     case 5:
-                        login.ExibeMenuPrincipal(login);
+                        login.Deslogar(login);
                         break;
                     case 6:
+                        login.ExibeMenuPrincipal(usuarioLogado, login);
+                        break;
+                    case 7:
                         /*Para o sistema geral*/
                         Environment.Exit(0);
                         break;
                     default:
                         break;
                 }
-            } while (opcaoMenuUsuario != 6);
+            } while (opcaoMenuUsuario != 7);
         }
     }
 }
