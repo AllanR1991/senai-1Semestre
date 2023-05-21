@@ -35,6 +35,7 @@ namespace projetoProdutos.classes
                 new Usuario(1, "kamille", "kamille@kamille.com", "kamille", DateTime.Now)
             );
 
+
             /*   foreach (Usuario usuario in listaDeUsuarios)
             {
               Console.WriteLine("Item na lista "+ usuario.Nome);
@@ -54,7 +55,6 @@ namespace projetoProdutos.classes
             listaDeUsuarios.Add(new Usuario(codigo, nome, email, senha, dataAtual));
             return "";
         }
-
         public void Deletar(List<Usuario> listaDeUsuarios, Login login)
         {
             bool codigoExiste;

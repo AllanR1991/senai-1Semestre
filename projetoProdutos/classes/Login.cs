@@ -11,6 +11,7 @@ namespace projetoProdutos.classes
         public Login()
         {
              
+
         }
 
         public void InicializaUsuario(){
@@ -21,13 +22,16 @@ namespace projetoProdutos.classes
             List<Usuario> objLista = objUsuario.listaDeUsuarios;
             string nomeUsuario;
             string senhaUsuario;
+
             bool senhaCorreta = false;
             bool usuarioExiste = false;
+
             string mensagemErroLogin = "\nUsuario ou senha estão incorretos.\n";
             do
             {
                 nomeUsuario = PeR.PerguntaString("Digite o nome do usuario :");
                 senhaUsuario = PeR.PerguntaString("Digite sua senha :");
+
 
                 usuarioExiste = (objLista.Find(x => x.Nome == nomeUsuario) != null);
 
@@ -55,9 +59,11 @@ namespace projetoProdutos.classes
 *************************   
                 ");
                         ExibeMenuPrincipal(login);
+
                     }
                     else
                     {
+
                         senhaCorreta = false;
                         PeR.ExibeMensagemPulandoLinha(mensagemErroLogin);
                     }
@@ -67,6 +73,7 @@ namespace projetoProdutos.classes
                     PeR.ExibeMensagemPulandoLinha(mensagemErroLogin);
                 }
             } while ((!usuarioExiste || !senhaCorreta));
+
         }
 
         public void Deslogar(Login login)
@@ -91,6 +98,7 @@ namespace projetoProdutos.classes
         {
             
             int opcaoMenuPrincipal;
+
             do
             {
                 opcaoMenuPrincipal = PeR.PerguntaInt(@$"
@@ -106,6 +114,7 @@ namespace projetoProdutos.classes
 *    4) Deslogar        *
 *                       *
 *************************  
+
                 ");
                 switch (opcaoMenuPrincipal)
                 {
@@ -117,6 +126,7 @@ namespace projetoProdutos.classes
                         break;
                     case 3:
                         objMarca.ExibeMenuMarca(objMarca,login);
+
                         break;
                     case 4:
                         break;
@@ -124,7 +134,9 @@ namespace projetoProdutos.classes
                         break;
                 }
                 
+
             } while(opcaoMenuPrincipal == 4);
+
         }
     }
 }
