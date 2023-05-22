@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using System.Text.RegularExpressions;
 namespace projetoProdutos.classes
 {
     public class Produto
@@ -49,19 +49,28 @@ namespace projetoProdutos.classes
             int indice;
             string escolha;
             char desejaCadastrarMarca;
-
+            bool verificaRex;
+            string nomeProduto;
+           
+            Console.ForegroundColor = ConsoleColor.Green;
+            
             int codigo = PeR.PerguntaInt("\nInforme o número do Produto :");
-            string nomeProduto = PeR.PerguntaString("Infome o nome do produto :");
+           
+            nomeProduto = PeR.PerguntaString("Infome o nome do produto :");
+            
+
             float preco = PeR.PerguntaFloat($"Informe o o preço do produto ({nomeProduto}) :");
             DateTime dataAtual = DateTime.Now;
-
+            Console.ResetColor();
             if (listaDeMarca.Count > 0)
             {
                 bool deuCerto = true;
                 marca.Listar(listaDeMarca);
+                Console.ForegroundColor = ConsoleColor.Green;
                 escolha = PeR.PerguntaString(
                     $"Esolha uma das marca na lista a acima digitando o numero do codigo correspondente ou digite \"criar\" para criar uma nova marca para o produto {nomeProduto}"
                 );
+                Console.ResetColor();
 
                 if (escolha == "criar")
                 {
@@ -76,9 +85,11 @@ namespace projetoProdutos.classes
                         if (!deuCerto)
                         {
                             marca.Listar(listaDeMarca);
+                            Console.ForegroundColor = ConsoleColor.Yellow;
                             PeR.ExibeMensagemPulandoLinha(
                                 "Favor escolher uma das marca na lista a acima digitando o numero do codigo correspondente :"
                             );
+                            Console.ResetColor();
                         }
                         else
                         {
@@ -97,18 +108,22 @@ namespace projetoProdutos.classes
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 desejaCadastrarMarca = PeR.PerguntaChar(
                     $"O sistema ainda não possui uma marca cadastrada, deseja cadastrar a marca? (s) para sim e (n) para não. "
                 );
+                Console.ResetColor();
                 if (desejaCadastrarMarca == 's')
                 {
                     marca = marca.Cadastrar(listaDeMarca);
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     PeR.ExibeMensagemPulandoLinha(
                         "Não foi possivel continuar com o cadastro de Produto."
                     );
+                    Console.ResetColor();
                     return;
                 }
             }
@@ -124,6 +139,7 @@ namespace projetoProdutos.classes
         {
             if (listaDeProduto.Count > 0)
             {
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 PeR.ExibeMensagemPulandoLinha(
                     @"
 
@@ -159,6 +175,7 @@ namespace projetoProdutos.classes
                     "---------------------------------------------------------------------------------------------\n"
                 );
             }
+            Console.ResetColor();
             return ListaDeProdutos;
         }
 
@@ -176,7 +193,7 @@ namespace projetoProdutos.classes
                 Produto codigoEcontrado = listaDeProduto.Find(x => x.Codigo == codigoSelecionado);
 
                 indice = listaDeProduto.IndexOf(codigoEcontrado);
-
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 desejaDeletar = PeR.PerguntaChar(
                     @$"
 ---------------------------------------------------------------------------------------------
@@ -195,7 +212,7 @@ Marca : {listaDeProduto[indice].Marca.NomeMarca}
                             
                             "
                 );
-
+                Console.ResetColor();
                 if (desejaDeletar == 's')
                 {
                     ListaDeProdutosExcluidos.Add(listaDeProduto[indice]);
@@ -203,14 +220,18 @@ Marca : {listaDeProduto[indice].Marca.NomeMarca}
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Gray;
                     PeR.ExibeMensagemPulandoLinha(
-                        $"\nOperação de deletar o Usuario {listaDeProduto[indice].NomeProduto} foi cancelada com sucesso."
+                        $"\nOperação de deletar o Produto {listaDeProduto[indice].NomeProduto} foi cancelada com sucesso."
                     );
+                    Console.ResetColor();
                 }
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 PeR.ExibeMensagemPulandoLinha($"\nCodigo informado não encontrado.");
+                Console.ResetColor();
             }
             return "";
         }
@@ -219,6 +240,7 @@ Marca : {listaDeProduto[indice].Marca.NomeMarca}
         {
             if (ListaDeProdutosExcluidos.Count > 0)
             {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
                 PeR.ExibeMensagemPulandoLinha(
                     @"
 
@@ -240,24 +262,30 @@ Marca : {listaDeProduto[indice].Marca.NomeMarca}
                 PeR.ExibeMensagemPulandoLinha(
                     "---------------------------------------------------------------------------------------------\n"
                 );
+                Console.ResetColor();
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 PeR.ExibeMensagemPulandoLinha("\nNão possui nenhum item excluido no sistema.\n");
+                Console.ResetColor();
             }
         }
 
         public void ExibeMenuProduto(
+            
             List<Marca> listaDeMarca,
             List<Produto> listaDeProduto,
             Login login,
             Usuario usuarioLogado
         )
         {
+            Console.Clear();
             int opcaoMenuProduto;
 
             do
             {
+                Console.ForegroundColor = ConsoleColor.Blue;
                 opcaoMenuProduto = PeR.PerguntaInt(
                     @$"
 *************************
@@ -284,9 +312,11 @@ Marca : {listaDeProduto[indice].Marca.NomeMarca}
 *    7) Fechar o        *
 *       sistema         *
 *                       *
-*************************   
-                "
+*************************
+
+Opção:               "
                 );
+                Console.ResetColor();
                 switch (opcaoMenuProduto)
                 {
                     case 1:
@@ -303,9 +333,11 @@ Marca : {listaDeProduto[indice].Marca.NomeMarca}
                         RelatorioProdutoExcluidos();
                         break;
                     case 5:
+                        Console.Clear();
                         login.Deslogar(login);
                         break;
                     case 6:
+                        Console.Clear();
                         login.ExibeMenuPrincipal(usuarioLogado, login);
                         break;
                     case 7:
@@ -315,6 +347,7 @@ Marca : {listaDeProduto[indice].Marca.NomeMarca}
                     default:
                         break;
                 }
+                
             } while (opcaoMenuProduto != 7);
         }
     }

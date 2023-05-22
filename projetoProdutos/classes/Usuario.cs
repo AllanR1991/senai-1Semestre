@@ -43,12 +43,13 @@ namespace projetoProdutos.classes
 
         public string Cadastrar()
         {
+            Console.ForegroundColor = ConsoleColor.Green;
             int codigo = PeR.PerguntaInt("\nInforme o código do usuário :");
             string nome = PeR.PerguntaString("Infome o nome do Usuario :");
             string email = PeR.PerguntaString($"Informe o e-mail do usuario ({nome}) :");
             string senha = PeR.PerguntaString($"Srº(ª) {nome} digite sua senha :");
             DateTime dataAtual = DateTime.Now;
-
+            Console.ResetColor();
             PeR.ExibeMensagem("\n");
 
             listaDeUsuarios.Add(new Usuario(codigo, nome, email, senha, dataAtual));
@@ -61,7 +62,7 @@ namespace projetoProdutos.classes
             char desejaDeletar;
             int indice;
             int codigoSelecionado = PeR.PerguntaInt(
-                "Digite o codigo do usuario que deseja deletar : "
+                "\nDigite o codigo do usuario que deseja deletar : "
             );
             codigoExiste = (listaDeUsuarios.Find(x => x.Codigo == codigoSelecionado) != null);
             if (codigoExiste)
@@ -69,7 +70,7 @@ namespace projetoProdutos.classes
                 Usuario codigoEcontrado = listaDeUsuarios.Find(x => x.Codigo == codigoSelecionado);
 
                 indice = listaDeUsuarios.IndexOf(codigoEcontrado);
-
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 desejaDeletar = PeR.PerguntaChar(
                     @$"
 ---------------------------------------------------------------------------------------------
@@ -86,7 +87,7 @@ Email : {listaDeUsuarios[indice].Email}
                             
                             "
                 );
-
+                Console.ResetColor();
                 if (desejaDeletar == 's')
                 {
                     listaExcluidos.Add(listaDeUsuarios[indice]);
@@ -94,14 +95,18 @@ Email : {listaDeUsuarios[indice].Email}
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Gray;
                     PeR.ExibeMensagemPulandoLinha(
                         $"\nOperação de deletar o Usuario {listaDeUsuarios[indice].Nome} foi cancelada com sucesso."
                     );
+                    Console.ResetColor();
                 }
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 PeR.ExibeMensagemPulandoLinha($"\nCodigo informado não encontrado.");
+                Console.ResetColor();
             }
         }
 
@@ -109,6 +114,7 @@ Email : {listaDeUsuarios[indice].Email}
         {
             if (listaDeUsuarios.Count > 0)
             {
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 PeR.ExibeMensagemPulandoLinha(
                     @"
 
@@ -130,12 +136,14 @@ Email : {listaDeUsuarios[indice].Email}
                     "---------------------------------------------------------------------------------------------\n"
                 );
             }
+            Console.ResetColor();
         }
 
         public void RelatorioUsuariosExcluidos()
         {
             if (listaExcluidos.Count > 0)
             {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
                 PeR.ExibeMensagemPulandoLinha(
                     @"
 
@@ -156,10 +164,13 @@ Email : {listaDeUsuarios[indice].Email}
                 PeR.ExibeMensagemPulandoLinha(
                     "---------------------------------------------------------------------------------------------\n"
                 );
+                Console.ResetColor();
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 PeR.ExibeMensagemPulandoLinha("\nNão possui nenhum item excluido no sistema.\n");
+                Console.ResetColor();
             }
         }
 
@@ -180,10 +191,12 @@ Email : {listaDeUsuarios[indice].Email}
             Usuario usuarioLogado
         )
         {
+            Console.Clear();
             int opcaoMenuUsuario;
 
             do
             {
+                Console.ForegroundColor = ConsoleColor.Blue;
                 opcaoMenuUsuario = PeR.PerguntaInt(
                     @$"
 *************************
@@ -210,9 +223,11 @@ Email : {listaDeUsuarios[indice].Email}
 *    7) Fechar o        *
 *       sistema         *
 *                       *
-*************************   
-                "
+*************************  
+
+Opção:                "
                 );
+                Console.ResetColor();
                 switch (opcaoMenuUsuario)
                 {
                     case 1:
@@ -229,9 +244,11 @@ Email : {listaDeUsuarios[indice].Email}
                         RelatorioUsuariosExcluidos();
                         break;
                     case 5:
+                        Console.Clear();
                         login.Deslogar(login);
                         break;
                     case 6:
+                        Console.Clear();
                         login.ExibeMenuPrincipal(usuarioLogado, login);
                         break;
                     case 7:
@@ -241,6 +258,8 @@ Email : {listaDeUsuarios[indice].Email}
                     default:
                         break;
                 }
+
+                
             } while (opcaoMenuUsuario != 7);
         }
     }

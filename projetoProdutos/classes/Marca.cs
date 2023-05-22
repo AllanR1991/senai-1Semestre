@@ -27,13 +27,14 @@ namespace projetoProdutos.classes
         public Marca Cadastrar(List<Marca> listaDeMarca)
         {
             Marca objMarca = new Marca();
+            Console.ForegroundColor = ConsoleColor.Green;
 
             objMarca.Codigo = PeR.PerguntaInt("\nInforme o código da Marca :");
             objMarca.NomeMarca = PeR.PerguntaString("Informe o nome da Marca :");
             objMarca.DataCadastro = DateTime.Now;
 
             PeR.ExibeMensagem("\n");
-
+            Console.ResetColor();
             listaDeMarca.Add(objMarca);
             return objMarca;
         }
@@ -42,6 +43,7 @@ namespace projetoProdutos.classes
         {
             if (listaDeMarca.Count > 0)
             {
+                Console.ForegroundColor = ConsoleColor.Magenta;
                 PeR.ExibeMensagemPulandoLinha(
                     @"
 
@@ -63,8 +65,11 @@ namespace projetoProdutos.classes
                     "---------------------------------------------------------------------------------------------\n"
                 );
             }else{
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 PeR.ExibeMensagemPulandoLinha("Não há nenhum item cadastrado.");
+                Console.ResetColor();
             }
+            Console.ResetColor();
         }
 
         public void Deletar(List<Marca> listaDeMarca, Login login)
@@ -82,6 +87,8 @@ namespace projetoProdutos.classes
 
                 indice = listaDeMarca.IndexOf(codigoEcontrado);
 
+                Console.ForegroundColor = ConsoleColor.Yellow;
+
                 desejaDeletar = PeR.PerguntaChar(
                     @$"
 ---------------------------------------------------------------------------------------------
@@ -98,6 +105,7 @@ Produto : {listaDeMarca[indice].NomeMarca}
                             
                             "
                 );
+                Console.ResetColor();
 
                 if (desejaDeletar == 's')
                 {
@@ -106,20 +114,25 @@ Produto : {listaDeMarca[indice].NomeMarca}
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Gray;
                     PeR.ExibeMensagemPulandoLinha(
                         $"\nOperação de deletar o Usuario {listaDeMarca[indice].NomeMarca} foi cancelada com sucesso."
                     );
+                    Console.ResetColor();
                 }
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 PeR.ExibeMensagemPulandoLinha($"\nCodigo informado não encontrado.");
+                Console.ResetColor();
             }
         }
 
         public void RelatorioMarcaExcluidas(){
             if (listaDeMarcaExcluidas.Count > 0)
             {
+                Console.ForegroundColor = ConsoleColor.DarkGray;
                 PeR.ExibeMensagemPulandoLinha(
                     @"
 
@@ -140,16 +153,21 @@ Produto : {listaDeMarca[indice].NomeMarca}
                 PeR.ExibeMensagemPulandoLinha(
                     "---------------------------------------------------------------------------------------------\n"
                 );
+                Console.ResetColor();
             }else{
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 PeR.ExibeMensagemPulandoLinha("\nNão possui nenhum item excluido no sistema.\n");
+                Console.ResetColor();
             }
         }
 
         public void ExibeMenuMarca(List<Marca> listaDeMarca,Marca objMarca,Login login, Usuario usuarioLogado) { 
+            Console.Clear();
             int opcaoMenuMarca;
             
             do
             {
+                Console.ForegroundColor = ConsoleColor.Blue;
                 opcaoMenuMarca = PeR.PerguntaInt(
                     @$"
                     
@@ -179,8 +197,9 @@ Produto : {listaDeMarca[indice].NomeMarca}
 *                       *
 *************************     
                 
-                "
+Opção:                "
                 );
+                Console.ResetColor();
                 switch (opcaoMenuMarca)
                 {
                     case 1:
@@ -197,9 +216,11 @@ Produto : {listaDeMarca[indice].NomeMarca}
                         RelatorioMarcaExcluidas();
                         break;
                     case 5:
+                        Console.Clear();
                         login.Deslogar(login);
                         break;
                     case 6:
+                        Console.Clear();
                         login.ExibeMenuPrincipal(usuarioLogado,login);
                         break;
                     case 7:

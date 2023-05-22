@@ -11,8 +11,6 @@ namespace projetoProdutos.classes
         Marca objMarca= new Marca();
         public Login()
         {
-             
-
         }
 
         public void InicializaUsuario(){
@@ -20,6 +18,7 @@ namespace projetoProdutos.classes
         }
         public void Logar(Login login)
         {
+            Console.Clear();
             List<Usuario> objLista = objUsuario.listaDeUsuarios;
             string nomeUsuario;
             string senhaUsuario;
@@ -31,7 +30,7 @@ namespace projetoProdutos.classes
             do
             {
                 nomeUsuario = PeR.PerguntaString("Digite o nome do usuario :");
-                senhaUsuario = PeR.PerguntaString("Digite sua senha :");
+                senhaUsuario = PeR.PerguntaString("\nDigite sua senha :");
 
 
                 usuarioExiste = (objLista.Find(x => x.Nome == nomeUsuario) != null);
@@ -50,8 +49,9 @@ namespace projetoProdutos.classes
                     if (senhaCorreta)
                     {
                         Usuario logado = objUsuario.SetUsuarioLogado(objLista[index]);
-                        PeR.ExibeMensagemPulandoLinha("Logado com sucesso");
-                        PeR.ExibeMensagem(@$"
+                        PeR.ExibeMensagemPulandoLinha("\nLogado com sucesso");
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                        PeR.ExibeMensagem(@$"                       
 *************************
 *                       *
 *       System of       *
@@ -59,6 +59,7 @@ namespace projetoProdutos.classes
 *                       *
 *************************   
                 ");
+                        Console.ResetColor();
                         ExibeMenuPrincipal(logado,login);
 
                     }
@@ -66,12 +67,16 @@ namespace projetoProdutos.classes
                     {
 
                         senhaCorreta = false;
+                        Console.ForegroundColor = ConsoleColor.Red;
                         PeR.ExibeMensagemPulandoLinha(mensagemErroLogin);
+                        Console.ResetColor();
                     }
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Red;
                     PeR.ExibeMensagemPulandoLinha(mensagemErroLogin);
+                    Console.ResetColor();
                 }
             } while ((!usuarioExiste || !senhaCorreta));
 
@@ -79,10 +84,14 @@ namespace projetoProdutos.classes
 
         public void Deslogar(Login login)
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             char desejaDeslogar  = PeR.PerguntaChar("\nDeseja deslogar mesmo? (Digite (s) para sim e (n) para não)");
+            Console.ResetColor();
             if(desejaDeslogar == 's'){
-                
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 char logarNovamente = PeR.PerguntaChar("Deseja logar com outro usuario? (Digite (s) para sim e (n) para não)");
+                Console.ResetColor();
+                PeR.ExibeMensagemPulandoLinha("\n");
                 if(logarNovamente == 's'){
                     login.Logar(login);
                 }else{
@@ -102,6 +111,7 @@ namespace projetoProdutos.classes
 
             do
             {
+                Console.ForegroundColor = ConsoleColor.Blue;
                 opcaoMenuPrincipal = PeR.PerguntaInt(@$"
 *************************
 *                       *
@@ -110,13 +120,20 @@ namespace projetoProdutos.classes
 *************************
 *                       *
 *    1) Usuario         *
+*                       *
 *    2) Produto         *
+*                       *
 *    3) Marca           *
+*                       *
 *    4) Deslogar        *
+*                       *
+*    5) Fechar o        *
+*       sistema         *
 *                       *
 *************************  
 
-                ");
+Opção :                ");
+                Console.ResetColor();
                 switch (opcaoMenuPrincipal)
                 {
                     case 1:
@@ -127,9 +144,12 @@ namespace projetoProdutos.classes
                         break;
                     case 3:
                         objMarca.ExibeMenuMarca(objMarca.listaDeMarca,objMarca,login,usuarioLogado);
-
                         break;
                     case 4:
+                        login.Deslogar(login);
+                        break;
+                    case 5:
+                        Environment.Exit(0);
                         break;
                     default:
                         break;
