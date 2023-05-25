@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\41017653836\\Desktop\\backEnd1\\projetoProdutos\\projetoProdutos.csproj",
-      "projectName": "projetoProdutos",
-      "projectPath": "C:\\Users\\41017653836\\Desktop\\backEnd1\\projetoProdutos\\projetoProdutos.csproj",
+      "projectUniqueName": "C:\\Users\\41017653836\\Desktop\\backEnd1\\EventoMVC\\EventoMVC.csproj",
+      "projectName": "EventoMVC",
+      "projectPath": "C:\\Users\\41017653836\\Desktop\\backEnd1\\EventoMVC\\EventoMVC.csproj",
       "packagesPath": "C:\\Users\\41017653836\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\41017653836\\Desktop\\backEnd1\\projetoProdutos\\obj\\",
+      "outputPath": "C:\\Users\\41017653836\\Desktop\\backEnd1\\EventoMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\41017653836\\AppData\\Roaming\\NuGet\\NuGet.Config",
