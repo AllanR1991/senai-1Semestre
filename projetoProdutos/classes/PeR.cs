@@ -99,5 +99,15 @@ namespace projetoProdutos.classes
         {
             Console.Write(texto);
         }
+
+        public static void BarraCarregamento(string texto, int quantidadePontinhos, int tempo)
+        {
+            ExibeMensagem(texto);
+            for (int i = 0; i <= quantidadePontinhos; i++)
+            {
+                ExibeMensagem(".");
+                Thread.Sleep(tempo);
+            }
+        }
     }
 }

@@ -29,10 +29,13 @@ namespace projetoProdutos.classes
             string mensagemErroLogin = "\nUsuario ou senha estão incorretos.\n";
             do
             {
+                PeR.ExibeMensagemPulandoLinha("******** Login ********\n");
+
                 nomeUsuario = PeR.PerguntaString("Digite o nome do usuario :");
                 senhaUsuario = PeR.PerguntaString("\nDigite sua senha :");
 
-
+                PeR.BarraCarregamento("\nVerificando acesso",10,100);
+                PeR.ExibeMensagemPulandoLinha("");
                 usuarioExiste = (objLista.Find(x => x.Nome == nomeUsuario) != null);
 
                 if (usuarioExiste)

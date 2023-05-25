@@ -10,6 +10,8 @@ namespace projetoProdutos.classes
         public string Senha { get; private set; }
         public DateTime DataCadastro { get; private set; }
 
+        public Usuario DeletadoPor;
+
         public Usuario() { }
 
         public Usuario(
@@ -44,6 +46,9 @@ namespace projetoProdutos.classes
         public string Cadastrar()
         {
             Console.ForegroundColor = ConsoleColor.Green;
+            
+            PeR.ExibeMensagemPulandoLinha("\n******** Cadastro ********\n");
+
             int codigo = PeR.PerguntaInt("\nInforme o código do usuário :");
             string nome = PeR.PerguntaString("Infome o nome do Usuario :");
             string email = PeR.PerguntaString($"Informe o e-mail do usuario ({nome}) :");
@@ -61,6 +66,9 @@ namespace projetoProdutos.classes
             bool codigoExiste;
             char desejaDeletar;
             int indice;
+
+            PeR.ExibeMensagemPulandoLinha("******** Deletar ********\n");
+
             int codigoSelecionado = PeR.PerguntaInt(
                 "\nDigite o codigo do usuario que deseja deletar : "
             );
@@ -84,8 +92,8 @@ Email : {listaDeUsuarios[indice].Email}
                         Pressione (s) para sim ou (n) para não.
 
 ---------------------------------------------------------------------------------------------
-                            
-                            "
+
+Opção:                      "
                 );
                 Console.ResetColor();
                 if (desejaDeletar == 's')

@@ -54,6 +54,8 @@ namespace projetoProdutos.classes
            
             Console.ForegroundColor = ConsoleColor.Green;
             
+            PeR.ExibeMensagemPulandoLinha("\n******** Cadastro ********\n");
+
             int codigo = PeR.PerguntaInt("\nInforme o número do Produto :");
            
             nomeProduto = PeR.PerguntaString("Infome o nome do produto :");
@@ -184,6 +186,9 @@ namespace projetoProdutos.classes
             bool codigoExiste;
             char desejaDeletar;
             int indice;
+
+            PeR.ExibeMensagemPulandoLinha("******** Deletar ********\n");
+
             int codigoSelecionado = PeR.PerguntaInt(
                 "Digite o codigo do produto que deseja deletar : "
             );
@@ -210,7 +215,7 @@ Marca : {listaDeProduto[indice].Marca.NomeMarca}
 
 ---------------------------------------------------------------------------------------------
                             
-                            "
+Opção:                           "
                 );
                 Console.ResetColor();
                 if (desejaDeletar == 's')
