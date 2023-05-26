@@ -99,5 +99,28 @@ namespace EventoMVC
         {
             Console.Write(texto);
         }
+
+
+        public static DateTime PerguntaData(string pergunta)
+        {
+            bool inputErrado;
+            DateTime valor = DateTime.Now ;
+            Console.WriteLine(pergunta);
+            do{
+                inputErrado =false;
+                try
+                {
+                   valor = DateTime.Parse(Console.ReadLine());
+                }
+                catch (System.Exception)
+                {
+                    ExibeMensagemPulandoLinha("\nValor inserido é invalido.\n");   
+                    inputErrado = true;
+                }
+            }while(inputErrado);
+            
+            return valor;
+            
+        }
     }
 }

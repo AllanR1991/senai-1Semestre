@@ -8,19 +8,19 @@
     "net7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\41017653836\\.nuget\\packages\\": {}
+    "C:\\Users\\allan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\41017653836\\Desktop\\backEnd1\\ConsoleMVC\\ConsoleMVC.csproj",
+      "projectUniqueName": "C:\\Users\\allan\\Documents\\backEnd1\\ConsoleMVC\\ConsoleMVC.csproj",
       "projectName": "ConsoleMVC",
-      "projectPath": "C:\\Users\\41017653836\\Desktop\\backEnd1\\ConsoleMVC\\ConsoleMVC.csproj",
-      "packagesPath": "C:\\Users\\41017653836\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\41017653836\\Desktop\\backEnd1\\ConsoleMVC\\obj\\",
+      "projectPath": "C:\\Users\\allan\\Documents\\backEnd1\\ConsoleMVC\\ConsoleMVC.csproj",
+      "packagesPath": "C:\\Users\\allan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\allan\\Documents\\backEnd1\\ConsoleMVC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\41017653836\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

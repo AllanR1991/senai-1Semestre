@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
 
 namespace EventoMVC.Model
 {
@@ -30,7 +27,7 @@ namespace EventoMVC.Model
             }
         }
         
-        public List<Evento> Exibe(){
+        public List<Evento> PreparaDadosParaListar(){
             /*Criamos uma lista de Evento*/
             List<Evento> listaDeEvento = new List<Evento>();
             /*Criamos um array contendo todos os Registros do arquivo Evento.csv*/
@@ -50,5 +47,15 @@ namespace EventoMVC.Model
             }
             return listaDeEvento;
         } 
+
+        public string PreparaDadosParaBancoDeDados(Evento ojbEvento){
+            return $"{ojbEvento.Nome};{ojbEvento.Descricao};{ojbEvento.DataEvento}";
+        }
+
+        public void Inserir(Evento objEvento){
+            string[] registro = {PreparaDadosParaBancoDeDados(objEvento)};
+
+            File.AppendAllLines(PATH,registro);
+        }
     }
 }

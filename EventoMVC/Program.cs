@@ -5,4 +5,6 @@ Evento objEvento = new Evento();
 
 EventoController objControle = new EventoController();
 
-objControle.ListarProdutos();
+objControle.AcessaCadastrarEvento();
+
+objControle.ListarEventos();
